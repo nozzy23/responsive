@@ -203,7 +203,11 @@ body{
     main header{padding:50px 30px;
     }
   }
-  main header img{border-radius:50%;margin:30px 0 10px;max-width:80%;height:auto;width:250px;
+  main header img{
+    margin:30px 0 10px;
+      max-width:%;
+      height:auto;
+      width:250px;
   }
   main header .intro-text{max-width:675px;text-align:center;margin-bottom:30px;
   }
