@@ -4,6 +4,12 @@
     height: 100px;
 }
 
+@media only screen and (max-width: 580px){
+    .card-deck{
+
+    }
+}
+
 /*contact css*/
 
 html{
@@ -126,10 +132,5 @@ html{
        padding-right: 3%;
     }
  }
+/* index*/
 
- /*portfolio css*/
-
-.class{
-    margin-top: 40px;
-    background-image: none;
-}
