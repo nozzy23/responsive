@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"
+    link href= "https://fonts.googleapis.com/css?family=Raleway";
+    >
+    
 
     <!-- local CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -14,6 +17,7 @@
     <title>Get in touch</title>
   </head>
   <body>
+    <!--Nav-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
           <img src= "asset/images/glasses.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -36,6 +40,46 @@
         </ul>
       </div>
     </nav>
+    <!--contact form-->
+    <div id="contact-form">
+      <div>
+        <h1>Nice to Meet You!</h1> 
+        <h4>Have a question? get in touch</h4> 
+      </div>
+        <p id="failure">message not sent.</p>  
+        <p id="success">Your message was sent successfully.</p>
+    
+           <form method="post" action="/">
+          <div>
+              <label for="name">
+                <span class="required">Name: *</span> 
+                <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+              </label> 
+          </div>
+          <div>
+              <label for="email">
+                <span class="required">Email: *</span>
+                <input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+              </label>  
+          </div>		          
+              
+          <div>		          
+              <label for="message">
+                <span class="required">Message: *</span> 
+                <textarea id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
+              </label>  
+          </div>
+          <div>		           
+              <button name="submit" type="submit" id="submit" >SEND</button> 
+          </div>
+           </form>
+    
+      </div>
+
+    <footer>
+  
+    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
